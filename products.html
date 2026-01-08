@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <title>محصولات سپ</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<header>
+    <h1>محصولات سپ</h1>
+    <nav>
+        <a href="index.html">خانه</a>
+        <a href="products.html">محصولات</a>
+        <a href="cart.html">سبد خرید</a>
+        <a href="contact.html">تماس با ما</a>
+    </nav>
+</header>
+
+<div class="container">
+    <div class="product">
+        <img src="images/1.jpg" alt="کفش راحتی">
+        <div>
+            <h3>کفش راحتی</h3>
+            <p>قیمت: 120000 تومان</p>
+            <button onclick="addToCart(1, 'کفش راحتی', 120000)">افزودن به سبد</button>
+        </div>
+    </div>
+
+    <div class="product">
+        <img src="images/2.jpg" alt="پیراهن شیک">
+        <div>
+            <h3>پیراهن شیک</h3>
+            <p>قیمت: 80000 تومان</p>
+            <button onclick="addToCart(2, 'پیراهن شیک', 80000)">افزودن به سبد</button>
+        </div>
+    </div>
+
+    <div class="product">
+        <img src="images/3.jpg" alt="کلاه فانتزی">
+        <div>
+            <h3>کلاه فانتزی</h3>
+            <p>قیمت: 25000 تومان</p>
+            <button onclick="addToCart(3, 'کلاه فانتزی', 25000)">افزودن به سبد</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
